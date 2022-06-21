@@ -1,0 +1,12 @@
+C:\Users\Marcel\source\repos\ClassLibraries\StringLibrary\bin\Debug\net6.0\StringLibrary.deps.json
+C:\Users\Marcel\source\repos\ClassLibraries\StringLibrary\bin\Debug\net6.0\StringLibrary.dll
+C:\Users\Marcel\source\repos\ClassLibraries\StringLibrary\bin\Debug\net6.0\StringLibrary.pdb
+C:\Users\Marcel\source\repos\ClassLibraries\StringLibrary\obj\Debug\net6.0\StringLibrary.csproj.AssemblyReference.cache
+C:\Users\Marcel\source\repos\ClassLibraries\StringLibrary\obj\Debug\net6.0\StringLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marcel\source\repos\ClassLibraries\StringLibrary\obj\Debug\net6.0\StringLibrary.AssemblyInfoInputs.cache
+C:\Users\Marcel\source\repos\ClassLibraries\StringLibrary\obj\Debug\net6.0\StringLibrary.AssemblyInfo.cs
+C:\Users\Marcel\source\repos\ClassLibraries\StringLibrary\obj\Debug\net6.0\StringLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Marcel\source\repos\ClassLibraries\StringLibrary\obj\Debug\net6.0\StringLibrary.dll
+C:\Users\Marcel\source\repos\ClassLibraries\StringLibrary\obj\Debug\net6.0\refint\StringLibrary.dll
+C:\Users\Marcel\source\repos\ClassLibraries\StringLibrary\obj\Debug\net6.0\StringLibrary.pdb
+C:\Users\Marcel\source\repos\ClassLibraries\StringLibrary\obj\Debug\net6.0\ref\StringLibrary.dll
