@@ -47,5 +47,18 @@ namespace StringLibraryTest
             Assert.IsFalse(result);
         }
 
+        [TestMethod]
+        public void CheckIfStringIsBalanced3_IsBalanced_ReturnsTrue()
+        {
+            bool result = library.Validate("(This {[looks], [great]}!)", "()[]{}");
+            Assert.IsTrue(result);
+        }
+
+        [TestMethod]
+        public void CheckIfStringIsBalanced3_IsUnbalanced_ReturnsFalse()
+        {
+            bool result = library.Validate("(This {[looks], [bad])!", "()[]{}");
+            Assert.IsFalse(result);
+        }
     }
 }
