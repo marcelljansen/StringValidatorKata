@@ -22,14 +22,12 @@ public class StringLibrary
             else if (matchingCharacterPairs.ContainsValue(c))
             {
                 matchingCharacterPairs.TryGetValue(openingCharactersInString.Peek(), out matchingClosingCharacter);
+
                 if (matchingClosingCharacter == c)
                     openingCharactersInString.Pop();
             }
         }
 
-        if(openingCharactersInString.Count == 0)
-            return true;
-        else
-            return false;
+        return openingCharactersInString.Count == 0 ? true: false;
     }
 }
