@@ -25,5 +25,12 @@ namespace StringLibraryTest
             bool result = library.Validate("(This looks great!)", "()");
             Assert.IsTrue(result);
         }
+
+        [TestMethod]
+        public void CheckIfStringIsBalanced_IsUnbalanced_ReturnsFalse()
+        {
+            bool result = library.Validate("(This looks bad!", "()");
+            Assert.IsFalse(result);
+        }
     }
 }
