@@ -2,8 +2,8 @@
 
 public class StringLibrary
 {
-    public void Validate(string stringToValidate, string characterPairs)
+    public Boolean Validate(string stringToValidate, string characterPairs)
     {
-        
+        return true;
     }
 }
