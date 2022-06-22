@@ -1,6 +1,6 @@
 ﻿namespace UtilityLibraries;
 
-public static class StringLibrary
+public class StringLibrary
 {
 
 }
