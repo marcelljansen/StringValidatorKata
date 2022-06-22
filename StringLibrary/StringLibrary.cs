@@ -2,7 +2,7 @@
 
 public class StringLibrary
 {
-    public void Validate()
+    public void Validate(string stringToValidate, string characterPairs)
     {
         
     }

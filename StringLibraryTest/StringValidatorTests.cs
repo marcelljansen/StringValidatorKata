@@ -8,10 +8,18 @@ namespace StringLibraryTest
         private StringLibrary? library;
 
         [TestMethod]
-        public void CheckIfValidateMethodExists_MethodExists()
+        public void CheckIfValidateMethodExists_MethodExists_TakesTwoStringParameter()
         {
             library = new StringLibrary();
-            library.Validate();
+            library.Validate("(This looks great!)", "()");
+        }
+
+        [TestMethod]
+        public void CheckIfStringIsBalanced_IsBalanced_ReturnsTrue()
+        {
+            library = new StringLibrary();
+            bool result = library.Validate("(This looks great!)", "()");
+            Assert.IsTrue(result);
         }
     }
 }
